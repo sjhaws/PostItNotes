@@ -1,2 +1,25 @@
-<h1>Pages#show</h1>
-<p>Find me in app/views/pages/show.html.erb</p>
+<h1>Note Show</h1>
+
+<%= link_to 'Back', pages_path %>
+
+<hr>
+
+<h2>
+<div>Author:
+<%= @note.author %>
+</div></h2>
+<br>
+
+<p>
+<div>subject:<label>
+<%= @note.subject %>
+<label>
+<div></p>
+<br>
+
+<p>
+<div>body:
+<%= @note.body %>
+<div>
+</p>
+
